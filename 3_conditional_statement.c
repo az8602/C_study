@@ -113,9 +113,7 @@ int main(void) {
 	}
 	*/
 
-	/*
-	프로젝트 : Up and Down
-	*/
+	// 프로젝트 : Up and Down
 
 	srand(time(NULL));
 	int num = rand() % 100 + 1; // 1~100 사이의 숫자
