@@ -14,9 +14,7 @@ int main(void) {
 	printf("b is %d\n", ++b); // b = b+1;
 	printf("b is %d\n", b++); // b를 사용한 이후 다음 문장으로 넘어갈때 1을 더해주라
 	printf("b is %d\n", b);
-	*/
 
-	/*
 	// 반복문(for)
 	for (int i = 1; i <= 10; i++) {
 		printf("Hello World(for) %d\n", i);
@@ -45,7 +43,7 @@ int main(void) {
 	}
 	*/
 
-	//별 찍기
+	// 별 찍기
 	/*
 	for (int i = 0; i < 5; i++) {
 		for (int j = 0; j <= i; j++) {
@@ -53,10 +51,8 @@ int main(void) {
 		}
 		printf("\n");
 	}
-	*/
 
 	//별 찍기(거꾸로))
-	/*
 	for (int i = 0; i < 5; i++) {
 		for (int j = i; j <= 4; j++) {
 			printf(" ");
@@ -68,9 +64,7 @@ int main(void) {
 	}
 	*/
 
-	/*
-	피라미드를 쌓아라 프로젝트
-	*/
+	// 프로젝트 : 피라미드를 쌓아라 
 
 	int floor;
 	printf("몇 층으로 쌓겠느냐?");
