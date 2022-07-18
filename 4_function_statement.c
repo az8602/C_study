@@ -47,12 +47,13 @@ int main(void) {
 	p(num);
 	*/
 
+	// 함수의 구성
 	/*
-	함수의 구성
 		반환형 함수이름(전달값)
 		main함수 위에서 선언한 양식과 동일해야한다
-
-	함수의 종류
+	*/
+	// 함수의 종류
+	/*
 		return 값이 없는 함수 : void
 		return 값이 있는 함수 : int, float, char 등..
 		
@@ -60,6 +61,7 @@ int main(void) {
 		전달값이 있는 함수 : input이 있음
 	*/
 	
+	// 예제
 	/*
 	function_without_return();
 
@@ -72,9 +74,7 @@ int main(void) {
 
 	int ret2 = apple(5, 2); // 5개의 사과중에서 2개를 먹었습니다
 	printf("사과 %d개에서 %d개를 먹은 이후 남은 개수는 %d입니다.", 5, 2, apple(5, 2)); // return값이 있을 때 이런 식으로 사용해도 됩니다(밑의 함수에서 printf를 주석처리 한 이후)
-	*/
 
-	/*
 	int num = 2;
 	num = add(num, 3);
 	p(num);
@@ -89,8 +89,8 @@ int main(void) {
 	p(num);
 	*/
 
+	// 프로젝트
 	/*
-	프로젝트
 	문이 5개가 있고, 각 문마다 점점 어려운 수식 퀴즈가 출제
 	맞히면 통과, 틀리면 실패
 	*/
