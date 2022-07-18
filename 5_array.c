@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <time.h>
 int main(void) {
-	// 배열
+
+	// 배열 사용 X
 	/*
 	int subway_1 = 30;
 	int subway_2 = 40;
@@ -12,6 +13,7 @@ int main(void) {
 	printf("지하철 3호차에 %d명이 타고 있습니다\n", subway_3);
 	*/
 
+	// 배열 사용
 	/*
 	int subway_array[3];
 	subway_array[0] = 30;
@@ -73,9 +75,7 @@ int main(void) {
 	for (int i = 0; i < sizeof(str2);i++) {
 		printf("%c\n", str[i]);
 	}
-	*/
 
-	/*
 	char kor[] = "나도코딩";
 	printf("%s\n", kor);
 	printf("%d\n", sizeof(kor));
@@ -85,6 +85,7 @@ int main(void) {
 	// char 크기 : 1byte, 따라서 한글은 사이즈가 *2 + 1
 	*/
 
+	// 아스키 코드
 	/*
 	// 앞에서의 문자열 정의와 동일
 	char c_array[7] = { 'c', 'o','d','i','n','g','\0' };
@@ -105,9 +106,7 @@ int main(void) {
 	printf("이름을 입력하세요 : ");
 	scanf_s("%s", name, sizeof(name));
 	printf("%s\n", name);
-	*/
 
-	/*
 	// 참고 : ASCII : ANSI(미국표준협회)에서 제시한 표준 코드 체계
 	// 7bit, 총 128개 코드 (0 ~ 127)
 	// a : 97, A : 65, O : 48 등 정수값으로 표시
